@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection"
 import MovingCards from "@/components/MovingCards";
 import Stickyscroll from "@/components/Stickyscroll";
 import { Spotlight } from "@/components/ui/Spotlight";
+import Webinar from "@/components/Webinar";
 
 export default function Home() {
   return (
@@ -15,7 +16,9 @@ export default function Home() {
       <HeroSection/>
       <Cardssection/>
       <Stickyscroll/>
+
       <MovingCards/>
+      <Webinar/>
      </main>
   );
 }

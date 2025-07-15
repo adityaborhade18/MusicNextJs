@@ -26,8 +26,8 @@ const Cardssection = () => {
     <div className='py-12 bg-gray-900'>
         <div>
             <div className='text-center'>
-                  <h2 className='uppercase font-semibold text-teal-600 tracking-wide'>Featured Section</h2>
-                  <p className=''>Learn From The Best</p>
+                  <h2 className='uppercase font-semibold text-teal-600 tracking-wide text-2xl'>Featured Section</h2>
+                  <p className='mt-4'>Learn With The Best</p>
             </div>
 
             <div className="mt-10 mx-6">
@@ -42,7 +42,7 @@ const Cardssection = () => {
                                         <p>{course.instructor}</p>
                                         <p>₹{course.price}</p>
                                         <Link href={`/courses/${course.id}`}>
-                                             <p className='mt-4 border-4 bg-white text-black w-30 h-10 '>Learn More</p>
+                                             <p className='flex justify-center items-center mt-4 border-4 bg-white text-black w-30 h-10 '>Learn More</p>
                                         </Link>
                                     </div>
                                </BackgroundGradient>
@@ -53,7 +53,7 @@ const Cardssection = () => {
                  </div>
             </div>
 
-            <div className='mt-20 text-center'>
+            <div className='mt-20 text-center text-white w-40 h-14 mx-auto bg-blue-600 flex justify-center items-center rounded-2xl hover:bg-blue-700 hover:scale-103 transition duration-200'>
                 <Link href={'/courses'}>
                        View All Courses
                 </Link>

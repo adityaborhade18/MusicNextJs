@@ -1,5 +1,7 @@
 import Cardssection from "@/components/Cardssection";
 import HeroSection from "@/components/HeroSection"
+import MovingCards from "@/components/MovingCards";
+import Stickyscroll from "@/components/Stickyscroll";
 import { Spotlight } from "@/components/ui/Spotlight";
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
       <h1 className='text-2xl text-center text-white'></h1>
       <HeroSection/>
       <Cardssection/>
+      <Stickyscroll/>
+      <MovingCards/>
      </main>
   );
 }

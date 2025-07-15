@@ -1,0 +1,74 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner's Music Theory",
+      "slug": "beginners-music-theory",
+      "description": "Understand the basics of notes, chords, and scales to build a strong musical foundation.",
+      "price": 499,
+      "instructor": "Aman Verma",
+      "isFeatured": true,
+      "image": "https://www.istockphoto.com/photo/cellos-and-musicians-gm1302833945-394461039?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmusic-tool&utm_medium=affiliate&utm_source=unsplash&utm_term=music+tool%3A%3A%3A"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Music Composition",
+      "slug": "advanced-music-composition",
+      "description": "Learn to compose complex music arrangements and orchestrate like a pro.",
+      "price": 799,
+      "instructor": "Sneha Iyer",
+      "isFeatured":true,
+      "image": "./public/vercel.svg"
+    },
+    {
+      "id": 3,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Produce EDM tracks using modern tools like Ableton Live and FL Studio.",
+      "price": 999,
+      "instructor": "Rohan Mehta",
+      "isFeatured": true,
+      "image": "/images/courses/electronic.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Acoustic Guitar Essentials",
+      "slug": "acoustic-guitar-essentials",
+      "description": "Master chords, strumming patterns, and fingerpicking on the acoustic guitar.",
+      "price": 399,
+      "instructor": "Neha Kapoor",
+      "isFeatured": false,
+      "image": "/images/courses/guitar.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Songwriting for Beginners",
+      "slug": "songwriting-for-beginners",
+      "description": "Learn how to write lyrics, create melodies, and structure songs from scratch.",
+      "price": 449,
+      "instructor": "Jayant Sharma",
+      "isFeatured": true,
+      "image": "/images/courses/songwriting.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Live Performance Mastery",
+      "slug": "live-performance-mastery",
+      "description": "Boost your stage presence, confidence, and crowd engagement during live shows.",
+      "price": 549,
+      "instructor": "Isha Rao",
+      "isFeatured": false,
+      "image": "/images/courses/live-performance.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mixing & Mastering Essentials",
+      "slug": "mixing-and-mastering-essentials",
+      "description": "Understand EQ, compression, and audio processing to polish your tracks professionally.",
+      "price": 899,
+      "instructor": "Kunal Batra",
+      "isFeatured": true,
+      "image": "/images/courses/mixing.jpg"
+    }
+  ]
+}

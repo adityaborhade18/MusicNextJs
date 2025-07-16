@@ -4,6 +4,8 @@ import MovingCards from "@/components/MovingCards";
 import Stickyscroll from "@/components/Stickyscroll";
 import { Spotlight } from "@/components/ui/Spotlight";
 import Webinar from "@/components/Webinar";
+import Instructor from "@/components/Instructor"
+
 
 export default function Home() {
   return (
@@ -16,12 +18,10 @@ export default function Home() {
       <HeroSection/>
       <Cardssection/>
       <Stickyscroll/>
-
       <MovingCards/>
       <Webinar/>
+      <Instructor/>
      </main>
   );
 }
  
-
-// bg-black/[0.96]
